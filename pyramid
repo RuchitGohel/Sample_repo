@@ -1,0 +1,29 @@
+// Half pyramid pattern of numbers.
+
+// C program to print right half pyramid pattern of star.
+
+#include<stdio.h>
+#include<conio.h>
+
+int main(){
+
+    int rows;
+    printf("\nNumber of rows :");
+    scanf("%d", &rows);
+
+    // first loop for printing rows.
+
+    for (int i = 1; i <= rows; i++){
+
+        /*second loop for printing 
+        similar number in each rows*/
+    
+    for (int j = 1; j <= i; j++){
+        printf("%d", i);
+    }
+    printf("\n");
+    }
+getch();
+return 0;
+
+}
